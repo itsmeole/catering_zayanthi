@@ -774,7 +774,7 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
+              <h3>Pengajian/Syukuran</h3>
               <div class="price align-self-start">$99</div>
               <p class="description">
                 Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
@@ -782,7 +782,7 @@
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
-              <h3>Private Parties</h3>
+              <h3>Sekolah</h3>
               <div class="price align-self-start">$289</div>
               <p class="description">
                 In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
@@ -790,7 +790,7 @@
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
+              <h3>Kantor</h3>
               <div class="price align-self-start">$499</div>
               <p class="description">
                 Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
@@ -798,7 +798,7 @@
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-4.jpg)">
-              <h3>Wedding Parties</h3>
+              <h3>Keluarga</h3>
               <div class="price align-self-start">$899</div>
               <p class="description">
                 Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
@@ -925,9 +925,16 @@
                 <div class="col-lg-4 col-md-6">
                   <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
                 </div>
-                <div class="form-group mt-3 reservation-form-bg d-flex">
+                <div class="form-group mt-3">
                   <div class="">
-                    <input type="menu" class="form-control" name="people" id="people" placeholder="Menu" required="">
+                    <label for="dropdown"></label>
+                    <select type="dropdown" class="form-select" name="people" id="dropdown" placeholder="Menu" required="">
+                      <option value="" disabled selected hidden>Pilih Opsi Acara</option>
+                      <option value="menu">Pengajian/Syukuran</option>
+                      <option value="menu">Sekolah</option>
+                      <option value="menu">Kantor</option>
+                      <option value="menu">Keluarga</option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -940,7 +947,7 @@
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-                <button type="submit">Book a Table</button>
+                <button type="submit">Buat Pesanan</button>
               </div>
             </form>
           </div><!-- End Reservation Form -->
